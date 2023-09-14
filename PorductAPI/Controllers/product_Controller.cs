@@ -4,7 +4,7 @@ using static PorductAPI.DTos;
 
 namespace PorductAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("product")]
     [ApiController]
     public class product_Controller : ControllerBase
     {
@@ -14,5 +14,11 @@ namespace PorductAPI.Controllers
             new ProductDto(Guid.NewGuid(), "Termék2",5500,DateTimeOffset.UtcNow, DateTimeOffset.UtcNow),
             new ProductDto(Guid.NewGuid(), "Termék3",25000,DateTimeOffset.UtcNow, DateTimeOffset.UtcNow),
         };
+
+        [HttpGet]
+        public IEnumerable<ProductDto> Getall()
+        {
+            return products;
+        }
     }
 }

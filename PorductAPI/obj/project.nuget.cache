@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KvoCtl3nTCHv9ihHqZdzs+RrHYTbNDkAOug5DfXqCg9Vik488IDrPxwoU9tJCnWYSE5MLNt+WRKZrh/EfV15Rg==",
+  "dgSpecHash": "hust3Tae81y3Zsp/BkLOVk6ZR9fZUsqGT8ZnFOzv4m3K8Iqo7QMqXCRvIA1aISlnR+/7xtcIPPntUlP8S3DowA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bistvángábor\\Git\\productapi\\PorductAPI\\PorductAPI.csproj",
+  "projectFilePath": "C:\\Users\\bistvángábor\\Git\\Products\\PorductAPI\\PorductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bistvángábor\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
     "C:\\Users\\bistvángábor\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
